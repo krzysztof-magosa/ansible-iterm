@@ -1,0 +1,6 @@
+---
+# defaults file for iterm
+iterm_url: "https://iterm2.com/downloads/stable/iTerm2-2_1_1.zip"
+iterm_version: "2.1.1"
+iterm_temp_dir: /tmp
+iterm_temp_file: ansible-iterm.zip

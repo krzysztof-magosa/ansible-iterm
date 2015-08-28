@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Krzysztof Magosa
+  description: This role installs iTerm
+  license: MIT
+  min_ansible_version: 1.8
+  platforms:
+    - name: Darwin
+      versions:
+        - all
+  categories:
+    - system
+dependencies: []
