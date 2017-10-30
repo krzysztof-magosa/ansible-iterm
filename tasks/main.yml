@@ -14,7 +14,7 @@
   when: iterm_plist.stat.exists and iterm_installed_version.stdout != iterm_version
 
 - name: Download iTerm
-  get_url: url={{ url }} dest={{ iterm_temp_dir }}/{{ iterm_temp_file }}
+  get_url: url={{ iterm_url }} dest={{ iterm_temp_dir }}/{{ iterm_temp_file }}
   when: iterm_plist.stat.exists == False or (iterm_installed_version is defined and iterm_installed_version.stdout != iterm_version)
 
 - name: Install iTerm
